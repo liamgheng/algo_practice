@@ -1,7 +1,7 @@
 package algo_practice
 
 // MARK
-func search(nums []int, target int) int {
+func searchBinary(nums []int, target int) int {
 	low, high := 0, len(nums) - 1
 	for low <= high {
 		// 这段没必要，因为之后会进入外面的条件
